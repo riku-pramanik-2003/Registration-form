@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page </title>
+</head>
+<body>
+<style>
+        *{
+    box-sizing: border-boxss;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.Riku{
+    
+		width: 900px;
+		height: 900px;
+	   border: 1px solid rgb(7, 7, 7);
+	   margin: 0 auto;
+	   padding: 130px;
+	   box-sizing: border-box;
+       background-color: chocolate;
+		
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{
+    width: 98%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.Rana{
+    text-align: center;
+}
+
+input[type="SUBMIT"]{
+    background-color: rgb(13, 243, 13);
+    color:rgb(7, 7, 7);
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+}
+
+</style>
+<div class="Riku">
+    <form  name="Page" action="http://127.0.0.1:5502/Rana.html">
+   <h1 class="Rana"> Registration Page </h1>
+   <hr>
+   <h2>User Information</h2>
+   <p>
+    Name:* <input type="text" name="name" required>
+   </p>
+   <fieldset>
+    <legend>Gender</legend>
+     Mele <input type="radio" name="gender" id="Mele"> Female <input type="radio" name="gender" id="female">  
+   </fieldset>
+   <p>email: <input type="email" name="email" id="email" required></p>
+   Username: <br>
+  <input type="text" name ="text"  id="Username" required>
+   <p> password <input type="password" name="password" id="password" required></p>
+   <p>phon no: <input type="number" name="number" id="number" required> </p>
+    
+   
+   <Button> 
+
+     <input type="SUBMIT" value="SUBMIT"> 
+        
+     </button>
+
+    </form>
+</div>
+</body>
+</html>
